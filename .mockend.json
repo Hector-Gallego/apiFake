@@ -1,10 +1,4 @@
 {
-  "Producto": {
-    "id" : {"string": {}},
-    "Nombre": { "loremWord": {} },
-    "categoria" : {"string": ["starwars", "diversos", "consolas"]},
-    "descripcion" : {"loremWords": { "minLength": 5, "maxLength": 20 }},
-    "precio" : {"int": {"min": 10 , "max": 500},
-    "imagen": {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"}
-  
+  "Post": {
+    "title": { "string": {} },
 }
